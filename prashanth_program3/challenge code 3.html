@@ -1,0 +1,85 @@
+<!DOCUMENT HTML>
+<html>
+<head>
+<title>Himalayas</title>
+<style>
+
+#demo {
+position: absolute; top: 30%;
+left: 60%;
+transform: translate(-50%, -50%);
+}
+img{ width:15px; height:10px;
+}
+</style>
+</head>
+<body>
+<a href="#" >Home |</a>
+<a href="#" >Place |</a>
+<a href="#" >Gallary |</a>
+<a href="#" >About Us |</a>
+<a href="#" >Search |</a>
+<br>
+<br>
+<header style="font-size:32px;"><strong>Himalayas</strong></header>
+<figure>
+<img src="himalaya.jpg" alt="Malpe Beach" style="margin:20px;width:400px;height:300px;"/></figure>
+<p id="demo"></p>
+<script>
+var var1 = setInterval(inTimer, 500); 
+var fs = 5; 
+var ids = document.getElementById("demo");
+function inTimer()
+{
+ids.innerHTML = 'Mountain View';
+
+ids.setAttribute('style', "font-size: " + fs + "px; color: blue"); fs += 5;
+if (fs >= 50)
+{
+clearInterval(var1); 
+var2 = setInterval(deTimer, 500);
+}
+}
+function deTimer()
+{
+fs -= 5;
+ids.innerHTML = 'Mountain View';
+ids.setAttribute('style', "font-size: " + fs + "px; color: orange"); 
+if (fs == 5)
+{
+clearInterval(var2); 
+var1 = setInterval(inTimer, 500);
+}
+}
+</script><h4>by <a href="">DS Prashanth</a></h4>
+<article>
+The Himalayas is a mountain range in South and East Asia separating the plains of the Indian subcontinent from the Tibetan Plateau. The range has many of Earth's highest peaks, including the highest, Mount Everest, at the border between Nepal and China. The Himalayas include over fifty mountains exceeding 7,200 m (23,600 ft) in elevation</article>
+<p>Year:2021<br>Date:06 April</p>
+<h4>Reviews</h4>
+<p><strong>We Missed It!</strong><br>Cifha
+<img src="star2.png"/>
+<img src="star2.png"/>
+<img src="star2.png"/>
+<img src="star2.png"/>
+</p>Such a Lovely Visuals we missed it.<hr>
+<p><strong>Love Click</strong><br>Pramod
+<img src="star2.png"/>
+<img src="star2.png"/>
+<img src="star2.png"/>
+<img src="star1.png"/>
+</p>Amasing Evening Prashanth.<hr>
+<p><strong>Nice</strong><br>Sunil
+<img src="star2.png"/>
+<img src="star2.png"/>
+<img src="star1.png"/>
+<img src="star1.png"/>
+</p>Good One.<hr>
+<footer>
+<a href="#" >Home |</a>
+<a href="#" >Place |</a>
+<a href="#" >Gallary |</a>
+<a href="#" >About Us |</a>
+<br><br><i>
+Copyright &copy 2021 My Mountain Stay</i>
+</footer></body>
+</html> 
