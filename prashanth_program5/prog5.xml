@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="prog5.css"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<h1> STUDENTS DESCRIPTION </h1>
+</head>
+<students>
+<student>
+<USN> USN : 1JT18IS020</USN><br/>
+<name>Name : DS Prashanth</name><br/>
+<college>COLLEGE : JIT</college><br/>
+<branch>BRANCH : Information Science and 
+Engineering</branch><br/>
+<year>YEAR : 2021</year><br/>
+<e-mail>E-Mail : dsprashanth.dharwad32@gmail.com</e-mail><br/>
+</student>
+<student>
+<USN>USN : 1JT21IS006 </USN><br/>
+<name>NAME : Pramod</name><br/>
+<college>COLLEGE : JIT</college><br/>
+<branch>BRANCH : Information Science and 
+Engineering</branch><br/>
+<year>YEAR : 2021</year><br/>
+<e-mail>E-Mail : Pramod@gmail.com</e-mail><br/>
+</student>
+<student>
+<USN>USN : 1JT21IS055</USN><br/>
+<name>NAME : Sunil </name><br/>
+<college>COLLEGE : JIT</college><br/>
+<branch>BRANCH : Information Science and 
+Engineering</branch><br/>
+<year>YEAR : 2021</year><br/>
+<e-mail>E-Mail : Sunil@gmail.com</e-mail><br/>
+</student>
+</students>
+</html>
